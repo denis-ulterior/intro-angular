@@ -12,7 +12,6 @@ import { CourseListComponent } from "./course-list.component";
         CourseListComponent,
         CourseInfoComponent,
         ReplacePipe,
-
     ],
     imports: [
         FormsModule,
@@ -20,10 +19,10 @@ import { CourseListComponent } from "./course-list.component";
         StarComponent,
         RouterModule.forChild([
             {
-                path: 'courses', component: CourseListComponent
+                path: '', component: CourseListComponent
             },
             {
-                path: 'courses/info/:id', component: CourseInfoComponent
+                path: 'info/:id', component: CourseInfoComponent
             }
 
         ])

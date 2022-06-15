@@ -20,7 +20,7 @@ import { CourseModule } from './courses/course.module';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    CourseModule,
+    //CourseModule,
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'courses', pathMatch: 'full'
